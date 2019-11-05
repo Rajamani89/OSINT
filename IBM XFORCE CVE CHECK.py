@@ -45,3 +45,8 @@ for i in range(len(resplist)):
     
  #xfdbid can be used to determine the IBM url by concatenating with "https://exchange.xforce.ibmcloud.com/vulnerabilities/" and remember to convert to string
 cvewrite.close()
+
+#If you are running this in google colab environment
+#check file path using pwd command
+from google.colab import files
+files.download('/content/cvetoday.csv')
