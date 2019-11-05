@@ -1,4 +1,4 @@
-#OSINT gathering
+# OSINT gathering
 
 This repositories contain multiple OSINT gathering techniques
 ### 1 - IBM CVE CHECK python
