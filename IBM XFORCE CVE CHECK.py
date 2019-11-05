@@ -1,15 +1,13 @@
 """
 Created on Sat Nov  2 23:57:25 2019
 
-@author: rajam
+@author: rajamani
 """
 #Importing the required module
 import requests,json,csv
-
+# This cve list can be taken as input by reading a file also in this example i just manually added
+#this list will be looped
 cvelist = ['CVE-2019-13721','CVE-2019-18230'] 
-#this can also be looped via for loop
-#cvelist = ['CVE-2019-13721']
-
 #API URL
 baseurl = "https://api.xforce.ibmcloud.com/vulnerabilities/search/"
 # no payload
@@ -46,9 +44,4 @@ for i in range(len(resplist)):
 	count = count + 1
     
  #xfdbid can be used to determine the IBM url by concatenating with "https://exchange.xforce.ibmcloud.com/vulnerabilities/" and remember to convert to string
- 
-
-
-
-
 cvewrite.close()
