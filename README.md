@@ -1,5 +1,5 @@
 # OSINT gathering
-
+![picture](https://miro.medium.com/max/1648/1*Dpf3zGMTvMZ94ydA2qIYmA.png)
 This repositories contain multiple OSINT gathering techniques
 ## CVE information gathering
 ### 1 Gathering all the CVE released from NVD
