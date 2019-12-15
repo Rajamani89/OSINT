@@ -13,7 +13,7 @@ This repositories have documentation of how to gather CVE and its info from NVD
 
 1.2 - NVD zip Feeds.py 
 
-1.3 - nvdwebextract.py 
+1.3 - nvdwebextract.py USING SCRAPY
 
 ### 2 - IBM Xforce CVE CHECK python
 ![picture](https://www.cisco.com/c/dam/m/en_us/products/security/technical-alliance-partners/core/img/partners/ibm-security.png)
