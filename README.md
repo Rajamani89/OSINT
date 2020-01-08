@@ -25,7 +25,7 @@ Contain the code for how to extract cve details from IBM and storing in a CSV fi
 #### 2.1 - IBM XFORCE CVE CHECK.py
 
 ### 3 - VIRUS TOTAL
-![picture](https://upload.wikimedia.org/wikipedia/en/a/a9/VirusTotal_Screenshot.jpg)
+![picture](https://www.virustotal.com/gui/images/manifest/icon-192x192.png)
 
 #### 3.1 - SCRAPING FROM VT WITHOUT USING API.py
 
