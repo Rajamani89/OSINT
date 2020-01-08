@@ -2,7 +2,7 @@
 This repositories contain multiple cyber securtiy information gathering techniques
 ## CVE information gathering
 ### 1 - Gathering all the CVE released from NVD
-![picture](https://nvd.nist.gov/NVD/media/images/visualizations/NVD-logo-carousel.png?ext=.png)
+![picture](https://nvd.nist.gov/NVD/Media/images/favicons/apple-touch-icon.png)
 
 The NVD is the U.S. government repository of standards based vulnerability management data represented using the Security Content Automation Protocol (SCAP)
 Its the best place to have uptodate information about what CVE is released on which day.
