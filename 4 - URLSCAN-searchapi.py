@@ -2,7 +2,7 @@ import requests
 import json
 import csv
 
-url = "https://urlscan.io/api/v1/search/?q=domain:rcam.target.com"
+url = "https://urlscan.io/api/v1/search/?q=domain:google.com"
 
 payload = {}
 headers= {}
