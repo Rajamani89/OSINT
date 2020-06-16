@@ -38,3 +38,7 @@ Contain the code for how to extract cve details from IBM and storing in a CSV fi
 
 
 contain code inorder query Alienvault for any campaign
+
+
+### 6 - robtext
+contain codes for the bulk checking of domain for name server , ip address , mail server
