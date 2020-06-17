@@ -43,5 +43,5 @@ contain code inorder query Alienvault for any campaign
 ### 6 - robtext
 contain codes for the bulk checking of domain for name server , ip address , mail server
 
-### 6 - subdomain manupulation
+### 7 - subdomain manupulation
 Contain code to convert subdomains to domain using tldextract
