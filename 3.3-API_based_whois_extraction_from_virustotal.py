@@ -9,7 +9,7 @@ for i in ipinfo:
 
 import time
 #to slow down my request
-domaininfowrite = open('fedex4.csv','w',newline='')
+domaininfowrite = open('ipinfo4.csv','w',newline='')
 writer = csv.writer(domaininfowrite,lineterminator='\n')
 writer.writerow(['vturl','registrant_country','whois_map','CIDR','NetName','NetRange',])
 # step 4 send all url in as a request
@@ -22,3 +22,7 @@ for i in vturl:
   for y in range(len(output['data'])):
     writer.writerow([i,output['data'][y]['attributes']['registrant_country'],output['data'][y]['attributes']['whois_map']['Address'],output['data'][y]['attributes']['whois_map']['CIDR'],output['data'][y]['attributes']['whois_map']['NetName'],output['data'][y]['attributes']['whois_map']['NetRange'],output['data'][y]['attributes']['whois_map']['NetType'],output['data'][y]['attributes']['whois_map']['OrgTechEmail'],output['data'][y]['attributes']['whois_map']['OrgTechName'],output['data'][y]['attributes']['whois_map']['Organization'],output['data'][y]['attributes']['whois_map']['OrgName']])
     time.sleep(4)
+
+    
+from google.colab import files
+files.download('/content/ipinfo4.csv')
