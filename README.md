@@ -29,6 +29,7 @@ Contain the code for how to extract cve details from IBM and storing in a CSV fi
 
 #### 3.1 - SCRAPING FROM VT WITHOUT USING API.py
 #### 3.2 - for downloading passive dns entries for all the ip address using API
+#### 3.3 - for downloading whois using VT api
 
 ### 4 - URLSCAN.IO
 ![picture](https://urlscan.io/img/urlscan_256.png)
