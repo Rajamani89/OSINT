@@ -101,6 +101,7 @@ for i in vturl:
   print(i)
 for y in range(len(vturl)):
 	writer.writerow([vturl[y],cidr[y],NetName[y],NetRange[y],OrgTechEmail[y],OrgTechName[y],Organization[y],OrgName[y]])
+	time.sleep(5)
     
 from google.colab import files
 files.download('/content/ipinfo4.csv')
