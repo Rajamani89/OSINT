@@ -27,7 +27,8 @@ for i in range(0,size_output):
   with open("totalqueryresults2.json", "a") as outfile:
     print ("writing the number ",i,"pulse result")
     temppulseresult = pulsesresult['results'][i]
-    json_object = json.dumps(temppulseresult, indent = 4)
+    json_object = json.dumps(temppulseresult)
+    #DO NOT USE WILL CREATE PARSING ISSUE IN KIBANA AS THE DATA IS ALLIGNED HERE -json_object = json.dumps(temppulseresult, indent = 4)
     outfile.write(json_object)
     time.sleep(2)
     if i != size_output - 1:
