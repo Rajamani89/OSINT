@@ -33,7 +33,7 @@ for i in range(0,size_output):
     time.sleep(2)
     if i != size_output - 1:
         print("not the lastline")
-        outfile.write(",\n")
+        # not required as json file will not have , separator#outfile.write(",\n")
     time.sleep(2)
     else:
       print("lastline")
