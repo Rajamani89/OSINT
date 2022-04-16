@@ -1,4 +1,3 @@
-from typing import Counter
 import shodan
 import sys
 # Configuration
