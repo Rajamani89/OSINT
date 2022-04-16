@@ -47,3 +47,6 @@ contain codes for the bulk checking of domain for name server , ip address , mai
 
 ### 7 - subdomain manupulation
 Contain code to convert subdomains to domain using tldextract
+
+### 8 - shodan search
+Use shodan search api
