@@ -50,3 +50,6 @@ Contain code to convert subdomains to domain using tldextract
 
 ### 8 - shodan search
 Use shodan search api
+
+## 9 -  FOFA Search
+Use of FOFA API
